@@ -18,8 +18,9 @@ import (
 	"testing"
 	"time"
 
-	"github.com/andybalholm/brotli/matchfinder"
 	"github.com/xyproto/randomstring"
+
+	"github.com/fr-edy/brotli/matchfinder"
 )
 
 func checkCompressedData(compressedData, wantOriginalData []byte) error {
